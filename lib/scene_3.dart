@@ -368,9 +368,7 @@ class LastSceneState extends State<LastScene> {
                                 ? nextCardNum()
                                 : _openDialogue(context);
                           } else {
-                            Route route = MaterialPageRoute(
-                                builder: (context) => const LastScene());
-                            Navigator.push(context, route);
+                            _showMyDialog();
                           }
                         },
                       )),
