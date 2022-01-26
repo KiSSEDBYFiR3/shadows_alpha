@@ -289,7 +289,7 @@ class LoadMyGameState extends State<LoadMyGame> {
 // виджет выводящий диалоговое окно
   Widget dialogueWindow() {
     return Container(
-      margin: const EdgeInsets.only(left: 20, right: 30),
+      margin: const EdgeInsets.only(left: 70, right: 30),
       alignment: Alignment.bottomLeft,
       child: Image.asset('assets/dialogue-box.png'),
     );
@@ -300,7 +300,7 @@ class LoadMyGameState extends State<LoadMyGame> {
     return Container(
       width: 1200,
       margin: EdgeInsets.only(
-          left: 50,
+          left: 105,
           right: 30,
           bottom: 50,
           top: MediaQuery.of(context).size.height / 1.28),
@@ -318,7 +318,7 @@ class LoadMyGameState extends State<LoadMyGame> {
 // виджет выводящий в диалоговое окно имя персонажа
   Widget characterName() {
     return Container(
-      margin: const EdgeInsets.only(left: 45, bottom: 250),
+      margin: const EdgeInsets.only(left: 75, bottom: 250),
       alignment: Alignment.bottomLeft,
       child: Text(
         currentCharacter,

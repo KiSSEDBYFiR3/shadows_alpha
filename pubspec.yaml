@@ -64,8 +64,11 @@ flutter:
   assets:
     - assets/
     - assets/jsonFiles/scene_1.json
+    - assets/jsonFiles/scene_1_cnt.json  
     - assets/jsonFiles/scene_2.json
     - assets/jsonFiles/scene_3.json
+    - assets/characters/
+    - assets/scenaries/
   
 
   # An image asset can refer to one or more resolution-specific "variants", see
