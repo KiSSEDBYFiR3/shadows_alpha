@@ -1,0 +1,13 @@
+C:/Workspace/project_alpha_01/shadows_0.3a/shadows_alpha/build/windows/CMakeFiles/INSTALL.dir
+C:/Workspace/project_alpha_01/shadows_0.3a/shadows_alpha/build/windows/CMakeFiles/ALL_BUILD.dir
+C:/Workspace/project_alpha_01/shadows_0.3a/shadows_alpha/build/windows/CMakeFiles/ZERO_CHECK.dir
+C:/Workspace/project_alpha_01/shadows_0.3a/shadows_alpha/build/windows/flutter/CMakeFiles/flutter_wrapper_plugin.dir
+C:/Workspace/project_alpha_01/shadows_0.3a/shadows_alpha/build/windows/flutter/CMakeFiles/flutter_wrapper_app.dir
+C:/Workspace/project_alpha_01/shadows_0.3a/shadows_alpha/build/windows/flutter/CMakeFiles/flutter_assemble.dir
+C:/Workspace/project_alpha_01/shadows_0.3a/shadows_alpha/build/windows/flutter/CMakeFiles/INSTALL.dir
+C:/Workspace/project_alpha_01/shadows_0.3a/shadows_alpha/build/windows/runner/CMakeFiles/shadows_alpha.dir
+C:/Workspace/project_alpha_01/shadows_0.3a/shadows_alpha/build/windows/runner/CMakeFiles/INSTALL.dir
+C:/Workspace/project_alpha_01/shadows_0.3a/shadows_alpha/build/windows/runner/CMakeFiles/ALL_BUILD.dir
+C:/Workspace/project_alpha_01/shadows_0.3a/shadows_alpha/build/windows/plugins/url_launcher_windows/CMakeFiles/url_launcher_windows_plugin.dir
+C:/Workspace/project_alpha_01/shadows_0.3a/shadows_alpha/build/windows/plugins/url_launcher_windows/CMakeFiles/INSTALL.dir
+C:/Workspace/project_alpha_01/shadows_0.3a/shadows_alpha/build/windows/plugins/url_launcher_windows/CMakeFiles/ALL_BUILD.dir

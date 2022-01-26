@@ -1,0 +1,9 @@
+C:/Workspace/project_alpha_01/shadows_0.3a/shadows_alpha/build/CMakeFiles/NightlyMemoryCheck.dir
+C:/Workspace/project_alpha_01/shadows_0.3a/shadows_alpha/build/CMakeFiles/Experimental.dir
+C:/Workspace/project_alpha_01/shadows_0.3a/shadows_alpha/build/CMakeFiles/Continuous.dir
+C:/Workspace/project_alpha_01/shadows_0.3a/shadows_alpha/build/CMakeFiles/Nightly.dir
+C:/Workspace/project_alpha_01/shadows_0.3a/shadows_alpha/build/CMakeFiles/shadows_alpha.dir
+C:/Workspace/project_alpha_01/shadows_0.3a/shadows_alpha/build/CMakeFiles/PACKAGE.dir
+C:/Workspace/project_alpha_01/shadows_0.3a/shadows_alpha/build/CMakeFiles/RUN_TESTS.dir
+C:/Workspace/project_alpha_01/shadows_0.3a/shadows_alpha/build/CMakeFiles/ALL_BUILD.dir
+C:/Workspace/project_alpha_01/shadows_0.3a/shadows_alpha/build/CMakeFiles/ZERO_CHECK.dir

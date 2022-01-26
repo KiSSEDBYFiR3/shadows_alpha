@@ -1,0 +1,10 @@
+^C:\WORKSPACE\PROJECT_ALPHA_01\SHADOWS_0.3A\SHADOWS_ALPHA\WINDOWS\FLUTTER\EPHEMERAL\.PLUGIN_SYMLINKS\URL_LAUNCHER_WINDOWS\WINDOWS\CMAKELISTS.TXT
+setlocal
+"C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -SC:/Workspace/project_alpha_01/shadows_0.3a/shadows_alpha/windows -BC:/Workspace/project_alpha_01/shadows_0.3a/shadows_alpha/build/windows --check-stamp-file C:/Workspace/project_alpha_01/shadows_0.3a/shadows_alpha/build/windows/plugins/url_launcher_windows/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

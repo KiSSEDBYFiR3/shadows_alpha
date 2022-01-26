@@ -1,0 +1,4 @@
+#Sat Jan 22 12:38:37 MSK 2022
+base.0=C\:\\Workspace\\project_alpha_01\\shadows_0.3a\\shadows_alpha\\build\\app\\intermediates\\dex\\debug\\mergeDexDebug\\classes.dex
+renamed.0=classes.dex
+path.0=classes.dex

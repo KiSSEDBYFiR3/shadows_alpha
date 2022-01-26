@@ -1,0 +1,10 @@
+^C:\WORKSPACE\PROJECT_ALPHA_01\SHADOWS_0.3A\SHADOWS_ALPHA\BUILD\WINDOWS\CMAKEFILES\0543A288F688DC999B0058E58A0DE974\GENERATE.STAMP.RULE
+setlocal
+"C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -SC:/Workspace/project_alpha_01/shadows_0.3a/shadows_alpha/windows -BC:/Workspace/project_alpha_01/shadows_0.3a/shadows_alpha/build/windows --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file C:/Workspace/project_alpha_01/shadows_0.3a/shadows_alpha/build/windows/shadows_alpha.sln
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

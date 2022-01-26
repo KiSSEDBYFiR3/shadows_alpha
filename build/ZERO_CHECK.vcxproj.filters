@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="C:\Workspace\project_alpha_01\shadows_0.3a\shadows_alpha\build\CMakeFiles\9d1504872c397fce61eb22fab98cdbb2\generate.stamp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{5AB7A997-A10D-3F2C-BC03-3B27E0399429}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
