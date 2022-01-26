@@ -1,6 +1,7 @@
 import 'dart:async';
 import 'dart:convert';
 import 'dart:io';
+import 'package:alpha_02/puzzle/main.dart';
 import 'package:alpha_02/scene_3.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
@@ -387,12 +388,16 @@ class LoadMyGameState extends State<LoadMyGame> {
                           } else {
                             if (jsonScene == "scene_1.json") {
                               Route route_1 = MaterialPageRoute(
-                                  builder: (context) => const NextScene());
+                                  builder: (context) => const MyApp());
                               Navigator.push(context, route_1);
-                            } else if (jsonScene == "scene_2.json") {
+                            } else if (jsonScene == "scene_1_cnt.json") {
                               Route route_2 = MaterialPageRoute(
-                                  builder: (context) => const LastScene());
+                                  builder: (context) => const NextScene());
                               Navigator.push(context, route_2);
+                            } else if (jsonScene == "scene_2.json") {
+                              Route route_3 = MaterialPageRoute(
+                                  builder: (context) => const LastScene());
+                              Navigator.push(context, route_3);
                             } else if (jsonScene == "scene_3.json") {
                               _showMyDialog();
                             }

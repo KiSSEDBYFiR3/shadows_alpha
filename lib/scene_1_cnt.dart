@@ -1,20 +1,20 @@
 import 'dart:convert';
 import 'dart:io';
-import 'package:alpha_02/puzzle/main.dart';
+import 'package:alpha_02/scene_2.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 
-class MyGame extends StatefulWidget {
-  const MyGame({Key key}) : super(key: key);
+class MyGameContinue extends StatefulWidget {
+  const MyGameContinue({Key key}) : super(key: key);
 
   @override
-  State<StatefulWidget> createState() => MyGameState();
+  State<StatefulWidget> createState() => MyGameContinueState();
 }
 
 int cardNum = 0;
 int msgNum = 0;
 int lastId = 0;
-String jsonScene = "scene_1.json";
+String jsonScene = "scene_1_cnt.json";
 String currentCharacter = "";
 String currentMessage = "";
 var currentCharacterImage = "";
@@ -22,7 +22,7 @@ List choisesList = [];
 List cardList = [];
 dynamic currentScenary = "";
 
-class MyGameState extends State<MyGame> {
+class MyGameContinueState extends State<MyGameContinue> {
   Map data = {};
 //внутрененее состояние класса незменяемое при каждом изменении основного состоянии программы
   @override
@@ -305,7 +305,7 @@ class MyGameState extends State<MyGame> {
                                 : _openDialogue(context);
                           } else {
                             Route route = MaterialPageRoute(
-                                builder: (context) => const MyApp());
+                                builder: (context) => const NextScene());
                             Navigator.push(context, route);
                           }
                         },
